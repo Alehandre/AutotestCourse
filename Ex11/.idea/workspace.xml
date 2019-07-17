@@ -2,18 +2,731 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f06f96-2881-4a85-bc7a-0e102fc1d01c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/CoreTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/CoreTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/iOSTestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/MainPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ui/SearchPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/SearchPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ui/WelcomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ui/WelcomePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/ArticleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ArticleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/AssertElemPresentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/AssertElemPresentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/iOS/GetStartedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/GetStartedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/.idea/libraries/java_client_4_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/.idea/libraries/junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/.idea/libraries/selenium_server_standalone_3_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/Java Appium Automation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AboutViewController.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AddArticlesToReadingListViewController.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AddArticlesToReadingListViewController.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon20x20@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon20x20~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon29x29@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon29x29~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon40x40@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon40x40~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon76x76@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon76x76~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppIcon83.5x83.5@2x~ipad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/AppearanceSettingsViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ArticlePopoverViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Assets.car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/BulletedLabel.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/CreateReadingListViewController.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/CreateReadingListViewController.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/DebugReadingListsViewController.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/DebugReadingListsViewController.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/EditSummaryViewController.storyboardc/EditSummaryViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/EditSummaryViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/EditSummaryViewController.storyboardc/rJv-oV-2mv-view-fDF-LW-sbk.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/EraseSavedArticlesView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/FontSizeSliderViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/AFNetworking.framework/AFNetworking" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/AFNetworking.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/CocoaLumberjack.framework/CocoaLumberjack" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/CocoaLumberjack.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/CocoaLumberjack.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/CocoaLumberjackSwift.framework/CocoaLumberjackSwift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/CocoaLumberjackSwift.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/CocoaLumberjackSwift.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/FLAnimatedImage.framework/FLAnimatedImage" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/FLAnimatedImage.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/FLAnimatedImage.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebServers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/Mantle.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/Mantle.framework/Mantle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/Mantle.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/NYTPhotoViewer.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonX@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonX@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonXLandscape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonXLandscape@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/NYTPhotoViewer.framework/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonXLandscape@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/NYTPhotoViewer.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/Piwik.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/Piwik.framework/Piwik" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/Piwik.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/Piwik.framework/piwiktracker.momd/VersionInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/Piwik.framework/piwiktracker.momd/piwiktracker v2.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/Piwik.framework/piwiktracker.momd/piwiktracker v2.omo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/Piwik.framework/piwiktracker.momd/piwiktracker.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/Assets.car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/Cache.momd/Cache.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/Cache.momd/VersionInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/EventLogging.momd/EventLogging.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/EventLogging.momd/VersionInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/WMF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/WMFArticlePreviewViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/Wikipedia.momd/VersionInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/Wikipedia.momd/Wikipedia.mom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/af.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/af.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ar.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ar.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/as.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/as.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/WMF_Black.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/WMF_White.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/Wikimedia-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/abusefilter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/abusefilter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/languages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/mainpages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/preview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/styleoverrides.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/assets/wikimedia-page-library-transform.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ast.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ast.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/av.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/az.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/azb.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ba.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ba.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/bgn.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/bn.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/bn.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/br.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/br.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/bs.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/bs.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/bto.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ca.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ca.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ce.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ce.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ckb.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ckb.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/cnh.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/cs.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/cs.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/cy.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/cy.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/da.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/da.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/de.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/de.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/diq.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/dsb.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/el.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/el.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/en.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/en.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/eo.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/eo.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/es.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/es.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/eu.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/eu.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/fa.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/fa.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/fi.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/fi.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/fil.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/fo.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/fo.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/fr.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/fr.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/frp.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/fy.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/gl.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/gl.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/gom-Latn.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/gu.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/haw.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/haw.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/he.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/he.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/hi.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/hi.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/hrx.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/hsb.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/hsb.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/hu.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/hu.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/hy.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/hy.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/id.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/id.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/is.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/is.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/it.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/it.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ja.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ja.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/jv.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/jv.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ka.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ka.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/kab.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/kab.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/km.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/km.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/kn.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/kn.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ko.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ko.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/krc.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/krc.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ksh.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ksh.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ku-Latn.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/lb.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/lb.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/lt.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/lt.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/lv.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/lv.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/mai.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/mai.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/mg.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/mk.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/mk.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ml.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ml.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/mr.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/mr.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ms.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ms.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/mt.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/my.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/my.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/nb.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/nb.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ne.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ne.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/nl.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/nl.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/oc.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/oc.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/olo.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/om.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/om.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/or.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/or.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/pa.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/pa.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/pl.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/pl.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ps.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ps.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/pt-br.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/pt-br.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/pt.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/pt.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ro.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ro.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ru.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ru.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sa.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sa.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sah.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sah.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sco.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sco.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sd.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sd.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/si.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sk.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sk.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sq.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sq.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sr-EC.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sr-EC.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/su.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/su.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sv.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sv.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sw.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/sw.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ta.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ta.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/tcy.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/tcy.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/te.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/te.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/tg-cyrl.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/tg.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/th.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/th.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/tl.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/tr.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/tr.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/uk.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/uk.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ur.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/ur.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/uz.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/uz.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/vec.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/vec.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/vi.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/vi.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/wuu.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/yi.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/yi.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/zh-hans.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/zh-hans.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/zh-hant.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/WMF.framework/zh-hant.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/hpple.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/hpple.framework/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/hpple.framework/hpple" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftCore.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftCoreData.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftCoreFoundation.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftCoreGraphics.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftCoreImage.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftCoreLocation.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftDarwin.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftDispatch.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftFoundation.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftMapKit.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftMetal.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftObjectiveC.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftQuartzCore.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftSwiftOnoneSupport.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftUIKit.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Frameworks/libswiftos.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ImageDimmingExampleViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Launch Screen.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/LibrariesUsed.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/LibrariesUsed.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/LibrariesUsed.storyboardc/LibrariesUsedViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/LibrariesUsed.storyboardc/LibraryUsedViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/LibrariesUsed.storyboardc/RAl-lu-nmB-view-Lt1-Fz-AJg.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/LibrariesUsed.storyboardc/Var-9e-kfX-view-QKe-YT-pRO.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NewsCollectionViewHeader.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundError.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundError@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundErrorIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundErrorIcon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundMessage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundMessage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundSuccess.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundSuccess@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundSuccessIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundSuccessIcon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundWarning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundWarning@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundWarningIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationBackgroundWarningIcon@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationButtonBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationButtonBackground@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/NotificationSettingsViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/OnThisDayViewControllerHeader.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PageHistoryResultPrototypeView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PageHistoryViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PageHistoryViewController.storyboardc/PageHistoryViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PageHistoryViewController.storyboardc/Sst-9G-sfn-view-CX5-jI-6FW.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PkgInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Places.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Places.storyboardc/PlaceSearchFilterListController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Places.storyboardc/Places.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Places.storyboardc/lZs-59-X8n-view-qJ6-Bh-FvK.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Places.storyboardc/pK5-Ai-Kzp-view-pBD-gM-dPf.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlacesSearchSuggestionTableViewCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/ContinueReadingWidget.appex/Base.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/ContinueReadingWidget.appex/Base.lproj/MainInterface.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/ContinueReadingWidget.appex/Base.lproj/MainInterface.storyboardc/M4Y-Lb-cyx-view-S3S-Oj-5AN.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/ContinueReadingWidget.appex/Base.lproj/MainInterface.storyboardc/UIViewController-M4Y-Lb-cyx.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/ContinueReadingWidget.appex/ContinueReadingWidget" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/ContinueReadingWidget.appex/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/ContinueReadingWidget.appex/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/ContinueReadingWidget.appex/en.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/FeaturedArticleWidget.appex/Base.lproj/MainInterface.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/FeaturedArticleWidget.appex/Base.lproj/MainInterface.storyboardc/M4Y-Lb-cyx-view-S3S-Oj-5AN.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/FeaturedArticleWidget.appex/Base.lproj/MainInterface.storyboardc/UIViewController-M4Y-Lb-cyx.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/FeaturedArticleWidget.appex/FeaturedArticleWidget" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/FeaturedArticleWidget.appex/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/FeaturedArticleWidget.appex/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/InTheNewsNotification.appex/Base.lproj/MainInterface.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/InTheNewsNotification.appex/Base.lproj/MainInterface.storyboardc/M4Y-Lb-cyx-view-S3S-Oj-5AN.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/InTheNewsNotification.appex/Base.lproj/MainInterface.storyboardc/UIViewController-M4Y-Lb-cyx.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/InTheNewsNotification.appex/InTheNewsNotification" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/InTheNewsNotification.appex/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/InTheNewsNotification.appex/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/TopReadWidget.appex/Assets.car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/TopReadWidget.appex/Base.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/TopReadWidget.appex/Base.lproj/MainInterface.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/TopReadWidget.appex/Base.lproj/MainInterface.storyboardc/M4Y-Lb-cyx-view-S3S-Oj-5AN.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/TopReadWidget.appex/Base.lproj/MainInterface.storyboardc/UIViewController-M4Y-Lb-cyx.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/TopReadWidget.appex/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/TopReadWidget.appex/TopReadWidget" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/TopReadWidget.appex/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/TopReadWidget.appex/en.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/Assets.car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/Sticker Pack.stickerpack/Anatomical heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/Sticker Pack.stickerpack/Astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/Sticker Pack.stickerpack/Blackhole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/Sticker Pack.stickerpack/Citation needed .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/Sticker Pack.stickerpack/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/Sticker Pack.stickerpack/International space station.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/Sticker Pack.stickerpack/Rabbit hole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/Sticker Pack.stickerpack/Schrodingers cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/Sticker Pack.stickerpack/Scientific blackhole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/Sticker Pack.stickerpack/Spacedog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/Wikipedia Stickers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/iMessage App Icon27x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/iMessage App Icon27x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/iMessage App Icon32x24@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/iMessage App Icon32x24@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/iMessage App Icon60x45@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/iMessage App Icon60x45@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/iMessage App Icon67x50@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PlugIns/Wikipedia Stickers.appex/iMessage App Icon74x55@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PreviewAndSaveViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PreviewAndSaveViewController.storyboardc/PreviewViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PreviewAndSaveViewController.storyboardc/YCc-it-nqb-view-tP4-ul-Au7.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/PreviewLicenseView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/RMessageDefaultDesign.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/RMessageView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ReadingListDetailExtendedViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ReadingListHintViewController.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ReadingListHintViewController.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ReadingThemesControlsViewController.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ReadingThemesControlsViewController.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Saved.storyboardc/DbA-ai-MSH-view-GCG-ME-1AZ.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Saved.storyboardc/DbA-ai-MSH-view-GCG-ME-1AZ.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Saved.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Saved.storyboardc/Saved.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Saved.storyboardc/Saved.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/SavedProgressViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/SavedProgressViewController.storyboardc/SavedProgressViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/SavedProgressViewController.storyboardc/byl-9N-rP3-view-Bog-93-sHh.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ScrollableEducationPanelView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/SectionEditorViewController.storyboardc/5er-xi-5lN-view-Cex-zA-X93.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/SectionEditorViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/SectionEditorViewController.storyboardc/SectionEditorViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ShareAFactViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ShareViewController.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ShareViewController.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/StorageAndSyncingSettingsViewController.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/StorageAndSyncingSettingsViewController.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TSMessagesDefaultDesign.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/ca.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/cs.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/de.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/en.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/es.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/eu.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/fi.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/fr.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/it.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/ja.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/ko.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/nl.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/no.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/pl.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/pt.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/ru.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/safari-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/safari-7@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/safari-7@2x~iPad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/safari-7@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/safari-7~iPad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/safari.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/safari@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/safari@2x~iPad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/safari@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/safari~iPad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/sk.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/sv.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/vi.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/zh_Hans.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TUSafariActivity.bundle/zh_Hant.lproj/TUSafariActivity.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/TextSizeChangeExampleViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Tharlon-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFAccountCreationViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFAccountCreationViewController.storyboardc/LsX-JK-bT6-view-c5n-ZK-2d9.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFAccountCreationViewController.storyboardc/WMFAccountCreationViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFAppModalProgressViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFAppViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFAppViewController.storyboardc/O8j-Xm-zXE-view-zy6-Kl-9CO.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFAppViewController.storyboardc/UIViewController-O8j-Xm-zXE.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFArticleLanguagesSectionFooter.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFArticleLanguagesSectionHeader.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFBarButtonItemPopoverMessageViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFBarButtonItemPopoverMessageViewController.storyboardc/Twi-Do-8Ec-view-EFr-M1-WKG.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFBarButtonItemPopoverMessageViewController.storyboardc/UIViewController-Twi-Do-8Ec.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFCaptchaViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFCaptchaViewController.storyboardc/WMFCaptchaViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFCaptchaViewController.storyboardc/sIA-fC-CW8-view-2UF-VY-OwF.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFChangePasswordViewController.storyboardc/HvE-aJ-r18-view-1vt-ta-cot.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFChangePasswordViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFChangePasswordViewController.storyboardc/WMFChangePasswordViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFEmptySectionCollectionViewCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFEmptyView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFExploreSectionFooter.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFExploreSectionHeader.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFFindInPageKeyboardBar.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFForgotPasswordViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFForgotPasswordViewController.storyboardc/WMFForgotPasswordViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFForgotPasswordViewController.storyboardc/a7r-jI-djU-view-GYS-km-eqa.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFImageGalleryDetailOverlayView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFLanguageCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFLanguagesViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFLoginViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFLoginViewController.storyboardc/WMFLoginViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFLoginViewController.storyboardc/mbm-n6-GWW-view-4dr-i6-dn7.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFNearbyArticleCollectionViewCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFPicOfTheDayCollectionViewCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFRandomDiceButton.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFRandomDiceButtonRoll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFReferencePanels.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFReferencePanels.storyboardc/WIr-N7-igK-view-Ktd-hA-m9P.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFReferencePanels.storyboardc/WIr-N7-igK-view-Ktd-hA-m9P.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFReferencePanels.storyboardc/WMFReferencePageViewController.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFReferencePanels.storyboardc/WMFReferencePageViewController.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFReferencePanels.storyboardc/WMFReferencePanelViewController.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFReferencePanels.storyboardc/WMFReferencePanelViewController.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFReferencePanels.storyboardc/spA-3k-AHf-view-Hh5-za-gpf.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFReferencePanels.storyboardc/spA-3k-AHf-view-Hh5-za-gpf.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFReferencePopoverMessageViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFReferencePopoverMessageViewController.storyboardc/UIViewController-rh8-A3-vLx.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFReferencePopoverMessageViewController.storyboardc/rh8-A3-vLx-view-JhK-nO-OQy.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFSearchViewController.storyboardc/AO7-gh-xKO-view-ui2-kx-uv4.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFSearchViewController.storyboardc/CiO-SS-pWA-view-tCs-h9-jjs.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFSearchViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFSearchViewController.storyboardc/UIViewController-AO7-gh-xKO.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFSearchViewController.storyboardc/UIViewController-CiO-SS-pWA.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFSearchViewController.storyboardc/UIViewController-jWX-gY-OwH.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFSearchViewController.storyboardc/WMFSearchViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFSearchViewController.storyboardc/jWX-gY-OwH-view-tzw-k8-eL6.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFSearchViewController.storyboardc/tkf-8P-b2O-view-xp5-j8-6jN.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFSettingsTableViewCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFSettingsViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFSettingsViewController.storyboardc/LWA-GV-VZP-view-1oL-zz-ml3.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFSettingsViewController.storyboardc/SecondaryMenuViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFTabBarUI.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFTabBarUI.storyboardc/LJo-n3-DFe-view-327-WV-rsQ.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFTabBarUI.storyboardc/Places.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFTabBarUI.storyboardc/UITabBarController-ebr-hF-Cp5.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFTabBarUI.storyboardc/w0S-8T-SRU-view-0fT-bu-9eA.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFTableHeaderFooterLabelView.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFTableOfContentsCell.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFTableOfContentsHeader.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFTitledExploreSectionFooter.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFTwoFactorPasswordViewController.storyboardc/AT3-3L-21R-view-shM-H7-5vu.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFTwoFactorPasswordViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFTwoFactorPasswordViewController.storyboardc/WMFTwoFactorPasswordViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/HdP-0o-ZZC-view-lzy-Eu-ayy.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/Sz5-Ln-qWW-view-g5O-Z4-Myl.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/WMFWelcomeAnalyticsViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/WMFWelcomeAnimationBackgroundViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/WMFWelcomeAnimationForgroundViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/WMFWelcomeContainerViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/WMFWelcomeExplorationViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/WMFWelcomeInitialViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/WMFWelcomeIntroductionViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/WMFWelcomeLanguageTableViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/WMFWelcomePageViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/WMFWelcomePanelViewController.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/aoo-cp-EUY-view-h3n-cK-21Q.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/i9b-ci-8HO-view-ihb-9I-oEg.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/ncK-V0-zLz-view-HVN-iR-kMH.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/phf-K5-0TN-view-GFc-RE-fPO.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/qLZ-5x-Kxd-view-Ev9-ZH-utG.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/sbE-3l-bqs-view-wCD-x0-Vga.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WMFWelcome.storyboardc/uX3-NZ-3WE-view-ahe-qt-nPa.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WebViewController.storyboardc/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WebViewController.storyboardc/WebViewController.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WebViewController.storyboardc/WebViewController.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WebViewController.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib/objects-11.0+.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WebViewController.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib/runtime.nib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/WikiFont-Glyphs.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/Wikipedia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/af.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ar.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/as.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ast.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/az.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/bcl.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/bn.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/br.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/bs.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/bto.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ca.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ce.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ckb.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/cs.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/cy.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/da.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/de.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/diq.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/dsb.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/el.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/en-gb.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/en.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/eo.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/es.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/eu.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/fa.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/fi.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/fo.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/fr.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/frp.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/fy.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/gl.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/gu.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/haw.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/he.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/hi.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/hrx.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/hsb.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/hu.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/hy.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/id.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/is.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/it.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ja.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ka.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/km.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/kn.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ko.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/krc.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ksh.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/lb.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/libswiftRemoteMirror.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/lt.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/lv.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/mg.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/mk.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ml.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/mr.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ms.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/mt.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/my.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/nb.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ne.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/nl.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/oc.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/om.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/or.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/pa.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/pl.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ps.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/pt-br.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/pt.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ro.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ru.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/sa.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/sah.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/sco.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/sd.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/si.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/sk.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/sq.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/sr-EC.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/su.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/sv.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/sw.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ta.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/te.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/tg-cyrl.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/th.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/tr.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/uk.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/ur.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/uz.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/vec.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/vi.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/yi.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/zh-hans.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/Wikipedia.app/zh-hant.lproj/InfoPlist.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/apks/org.wikipedia.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/libs/java-client-4.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/libs/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/libs/selenium-server-standalone-3.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/out/production/Java Appium Automation/META-INF/Java Appium Automation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/out/production/Java Appium Automation/lib/CoreTestCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/out/production/Java Appium Automation/lib/iOSTestCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/out/production/Java Appium Automation/lib/ui/ArticlePageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/out/production/Java Appium Automation/lib/ui/MainPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/out/production/Java Appium Automation/lib/ui/MyListsPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/out/production/Java Appium Automation/lib/ui/SearchPageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/out/production/Java Appium Automation/lib/ui/WelcomePageObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/out/production/Java Appium Automation/tests/ArticleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/out/production/Java Appium Automation/tests/AssertElemPresentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/out/production/Java Appium Automation/tests/SearchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/out/production/Java Appium Automation/tests/iOS/GetStartedTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/src/lib/CoreTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/src/lib/iOSTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/src/lib/ui/ArticlePageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/src/lib/ui/MainPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/src/lib/ui/MyListsPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/src/lib/ui/SearchPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/src/lib/ui/WelcomePageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/src/tests/ArticleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/src/tests/AssertElemPresentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/src/tests/SearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex9/src/tests/iOS/GetStartedTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +743,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/ArticleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="56" column="45" lean-forward="true" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+            <state relative-caret-position="840">
+              <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,6 +753,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lib/Platform.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-30">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+                <element signature="e#1304#1305#0" expanded="true" />
+                <element signature="e#2670#2671#0" expanded="true" />
+                <element signature="e#2718#2719#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/ui/MyListsPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="889">
@@ -54,7 +785,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="420">
               <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -66,7 +797,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/ui/ios/IOSArticlePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="60">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -78,12 +809,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/ui/MainPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="435">
               <caret line="41" column="58" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3840#3841#0" expanded="true" />
-                <element signature="e#3925#3926#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,12 +821,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/ui/ios/IOSMyListsPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="165">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +833,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/ui/android/AndroidMyListsPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,10 +888,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="361" />
-    <option name="y" value="122" />
+    <option name="x" value="116" />
+    <option name="y" value="241" />
     <option name="width" value="1810" />
-    <option name="height" value="1193" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -172,34 +899,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="JavaAppiumAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ex9" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaAppiumAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ex9" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex11" type="462c0819:PsiDirectoryNode" />
+              <item name="apks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaAppiumAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ex11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaAppiumAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ex9" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaAppiumAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ex9" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaAppiumAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ex9" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
@@ -207,7 +940,7 @@
             </path>
             <path>
               <item name="JavaAppiumAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ex9" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
@@ -215,7 +948,7 @@
             </path>
             <path>
               <item name="JavaAppiumAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ex9" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
@@ -223,19 +956,14 @@
             </path>
             <path>
               <item name="JavaAppiumAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ex9" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAppiumAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -415,10 +1143,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="361" y="122" width="1810" height="1193" extended-state="0" />
+    <frame x="116" y="241" width="1810" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1402715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20192307" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -490,35 +1218,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/iOSTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/iOSTestCase.java" />
     <entry file="file://$PROJECT_DIR$/src/tests/GetStartedTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/Platform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#2670#2671#0" expanded="true" />
-            <element signature="e#2718#2719#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -624,16 +1330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/ui/android/AndroidMyListsPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/ui/SearchPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -644,43 +1340,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/ui/MainPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="41" column="58" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3840#3841#0" expanded="true" />
-            <element signature="e#3925#3926#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/ui/ios/IOSMyListsPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/ui/ios/IOSArticlePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/ui/ArticlePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="420">
           <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -688,10 +1350,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ArticleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/ios/IOSArticlePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="56" column="45" lean-forward="true" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/MainPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="41" column="58" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/ios/IOSMyListsPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/ui/android/AndroidMyListsPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -704,6 +1396,32 @@
           <caret line="93" column="42" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ArticleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/Platform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#2670#2671#0" expanded="true" />
+            <element signature="e#2718#2719#0" expanded="true" />
           </folding>
         </state>
       </provider>
