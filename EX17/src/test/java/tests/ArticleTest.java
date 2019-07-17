@@ -62,17 +62,13 @@ public class ArticleTest extends CoreTestCase {
         } else if(Platform.getInstance().isAndroid()) {
             ArticlePageObject.createMyFolderList("Learning programming");
             SearchPageObject.typeSearchLine("Java");
+        } else {
+
+            SearchPageObject.clickByArticleWithSubstring("sland of Indonesia");
+            ArticlePageObject.openArticleOption();
+            ArticlePageObject.openNavigation();
         }
 
-        SearchPageObject.clickByArticleWithSubstring("sland of Indonesia");
-        ArticlePageObject.openArticleOption();
-
-        ArticlePageObject.openNavigation();
-
-        MyListsPageObject MyListsPageObject = MyListsPageObjectFactory.get(driver);
-        MyListsPageObject.openMyWatchlist();
-        MyListsPageObject.swipeByArticleToDelete("Java");
-        MyListsPageObject.findLastArticle("JavaScript");
 
         if(Platform.getInstance().isIos()) {
             ArticlePageObject.tapActionTab();
@@ -81,6 +77,7 @@ public class ArticleTest extends CoreTestCase {
             ArticlePageObject.tapActionTab();
         }
 
+        MyListsPageObject MyListsPageObject = MyListsPageObjectFactory.get(driver);
 
         if(Platform.getInstance().isIos()){
             MyListsPageObject.openSavedList();
@@ -92,6 +89,10 @@ public class ArticleTest extends CoreTestCase {
             MyListsPageObject.swipeByArticleToDelete("Island of Indonesia");
             MyListsPageObject.findLastArticle("Programming language");
         }
+
+        MyListsPageObject.openMyWatchlist();
+        MyListsPageObject.swipeByArticleToDelete("Java");
+        MyListsPageObject.findLastArticle("JavaScript");
 
 
     }
